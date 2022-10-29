@@ -14,7 +14,7 @@ const Skills = props => {
                 <SkillsImgBlock>
                     <SkillsImg src={image1} />
                     <SkillsImgText>
-                        RAPIDITY 
+                        RAPIDITY <br />
                         ALWAYS ON TIME
                     </SkillsImgText>
                 </SkillsImgBlock>
@@ -34,7 +34,7 @@ const Skills = props => {
 
                     <SkillsImg src={image4} />
                     <SkillsImgText>
-                        COMUNICATIVE 
+                        COMUNICATIVE <br />
                         LISTEN FOR COMMENTS
                     </SkillsImgText>
 

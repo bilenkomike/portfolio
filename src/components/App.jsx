@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import About from './About/About';
 import Service from './Service/Service';
 import Skills from './Skills/Skills';
+import Technologies from './Technologies/Technologies'
 
 
 export const App = () => {
@@ -13,6 +14,7 @@ export const App = () => {
       <About />
       <Service />
       <Skills />
+      <Technologies />
     </>
   );
 };

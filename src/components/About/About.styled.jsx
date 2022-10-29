@@ -15,8 +15,10 @@ export const AboutContenct = styled.div`
 export const AboutImage = styled.img`
 
     display: block;
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
     
     border-radius: 50%;
     border: 2px solid #4C70EF;

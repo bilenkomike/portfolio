@@ -18,7 +18,7 @@ export const Header = styled.header`
 
     background-color: rgba(0,0,0,.75);
     -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     box-shadow: 2px 2px 10px rgba(0,0,0,.75);
 
     user-select: none;

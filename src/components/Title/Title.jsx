@@ -1,10 +1,8 @@
-import { HeaderTitle } from './Title.styled' 
+import { HeaderTitle, TitleText } from './Title.styled' 
 
 
 const Title = props => {
-    return <>
-        <HeaderTitle>{props.children}</HeaderTitle>
-    </>;
+    return <HeaderTitle><TitleText>{props.children}</TitleText></HeaderTitle>;
 }
 
 export default Title;

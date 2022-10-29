@@ -1,6 +1,6 @@
 import Intro from './Intro/Intro';
 import Header from './Header/Header';
-import Title from './Title/Title'
+import About from './About/About';
 
 
 export const App = () => {
@@ -8,7 +8,7 @@ export const App = () => {
     <>
       <Header />
       <Intro />      
-      <Title>About</Title>
+      <About />
     </>
   );
 };

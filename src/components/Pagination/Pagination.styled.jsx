@@ -16,13 +16,11 @@ export const PaginationItem = styled.span`
     margin: 0px 10px;
     box-sizing: border-box;
     
-    background: rgba(255,255,255, .5);
-    ${props => props.active ? 'background: rgba(255,255,255, 1);': null}
+    background-color: rgba(255,255,255, .5);
+    ${props => props.active ? 'background-color: rgba(255,255,255, 1);': null}
     
     border-radius: 20px;
 
     cursor:pointer;
     transition: background-color .1s linear;
-
-
 `;

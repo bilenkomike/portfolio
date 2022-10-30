@@ -16,16 +16,15 @@ import projects from './projects-list';
 
 
 const Projects = props => {
-    
+    const perPage = 5;
     const [key, setKey] = useState(0);
     
-    let new_projects = projects.slice(key*5,(key*5)+5);
     return <ProjectsComponent>
         
         <Title>Projects</Title>
         
         <ProjectsContent>
-            {new_projects.map(project => <ProjectsItem key={Math.random()}>
+            {projects.slice(key*perPage,(key*perPage)+perPage).map(project => <ProjectsItem key={Math.random()}>
                 <ProjectsImg src={project.image} alt={projects.image} />
                 <ProjectsTitle>
                     {project.title}
@@ -35,7 +34,7 @@ const Projects = props => {
                 </ProjectsLink>
             </ProjectsItem>)}
         </ProjectsContent>
-        <Pagination count={Math.ceil(projects.length / 5)} handleClick={setKey} selected={key}></Pagination>
+        <Pagination count={Math.ceil(projects.length / perPage)} handleClick={setKey} selected={key}></Pagination>
     </ProjectsComponent>
 }
 

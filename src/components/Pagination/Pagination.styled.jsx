@@ -8,19 +8,27 @@ export const PaginationComponent = styled.div`
 `;
 
 
+export const PaginationItemContainer = styled.span`
+    display: block;
+    padding: 10px 0px;
+
+    cursor: pointer;
+`;
+
+
 
 export const PaginationItem = styled.span`
     display: block;
     width: 50px;
     height: 3px;
     margin: 0px 10px;
-    box-sizing: border-box;
+    
     
     background-color: rgba(255,255,255, .5);
     ${props => props.active ? 'background-color: rgba(255,255,255, 1);': null}
     
     border-radius: 20px;
 
-    cursor:pointer;
+    
     transition: background-color .1s linear;
 `;

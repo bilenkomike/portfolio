@@ -1,5 +1,5 @@
 import {
-    PaginationComponent, PaginationItem
+    PaginationComponent, PaginationItem,PaginationItemContainer
 } from './Pagination.styled';
 
 
@@ -7,7 +7,7 @@ const Pagination = props => {
     let paginationItems = [];
 
     for (let i = 0; i < props.count; i++) {
-        paginationItems.push(<PaginationItem key={i} onClick={() => props.handleClick(i)} active={i === props.selected}></PaginationItem>);
+        paginationItems.push(<PaginationItemContainer key={i} onClick={() => props.handleClick(i)}><PaginationItem  active={i === props.selected}></PaginationItem></PaginationItemContainer>);
     }
 
     return <PaginationComponent>

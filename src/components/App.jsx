@@ -5,6 +5,7 @@ import Service from './Service/Service';
 import Skills from './Skills/Skills';
 import Technologies from './Technologies/Technologies'
 import Projects from './Projects/Projects';
+import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
       <Skills />
       <Technologies />
       <Projects />
+      <Footer />
     </>
   );
 };

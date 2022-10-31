@@ -12,6 +12,7 @@ export const Intro = styled.div`
 export const IntroImg = styled.img`
     display: block;
     width: 100%;
+    height: 100vh;
 `;
 
 export const IntroHover = styled.div`

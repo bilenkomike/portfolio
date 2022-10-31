@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const HeaderTitle = styled.h1`
     display: block;
     margin: 47px 0px;
-    
 `;
 
 export const TitleText = styled.span`
     display: block;
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
     margin: 0 auto;
     
     text-align: center;
